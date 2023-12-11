@@ -1,0 +1,153 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  color: #000;
+}
+
+.container {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.search {
+  padding-top: 102px;
+  padding-left: 160px;
+}
+
+.search__form {
+  margin-bottom: 48px;
+  padding-left: 63px;
+}
+
+.search__input {
+  padding-left: 20px;
+  width: 500px;
+  height: 60px;
+  border: 1px solid #000;
+}
+
+.search__btn {
+  text-align: center;
+  width: 250px;
+  height: 60px;
+  background-color: #0094ff;
+  color: #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+.search__error {
+  padding-top: 61px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.search__result-list-close {
+  display: none;
+}
+
+.search__result-item-inner {
+  display: flex;
+  gap: 65px;
+  width: min(660px, 50%);
+  padding-top: 41px;
+  padding-bottom: 27px;
+  padding-left: 33px;
+  border-radius: 35px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.search__result-item-inner:hover {
+  background-color: #d9d9d9;
+}
+
+.search__result-image {
+  width: 100px;
+  overflow: hidden;
+}
+
+.search__result-image img {
+  width: 100%;
+}
+
+.search__result-title {
+  margin-bottom: 7px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.search__result-year {
+  margin-bottom: 18px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #0094ff;
+}
+.search__result-type {
+  font-size: 30px;
+}
+.search__result-item-close,
+.search__result-list-close,
+.search__error-close,
+.search__close,
+.search__form-close,
+.movie__close {
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.movie {
+  padding-top: 60px;
+}
+
+.movie__back {
+  position: relative;
+  margin-bottom: 125px;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 700;
+  color: inherit;
+}
+.movie__back::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background: url("arrowback_111142.svg") center / cover no-repeat;
+  width: 40px;
+  height: 40px;
+  top: 5px;
+  left: -45px;
+}
+
+.movie__wrapper {
+  padding-top: 125px;
+}
+.movie__box {
+  margin-bottom: 74px;
+  display: flex;
+  gap: 90px;
+}
+.movie__title {
+  margin-bottom: 33px;
+  font-size: 50px;
+}
+
+.movie__data {
+  font-size: 30px;
+}
+
+.movie__data:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.movie__data span {
+  margin-left: 24px;
+  font-size: 30px;
+  color: #0094ff;
+}
+.movie__plot {
+  margin-left: 100px;
+}
+.movie__text {
+  font-size: 30px;
+}

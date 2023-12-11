@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <section class="search">
+      <div class="search__form">
+        <input type="text" class="search__input">
+        <button class="search__btn" type="submit">Найти</button>
+        <p class="search__error search__error-close">Фильмы не найдены</p>
+      </div>
+
+      <div class="search__result-list">
+        <div class="search__result-item search__result-item-close">
+          <a href="#!" class="search__result-item-inner">
+            <div class="search__result-image"></div>
+            <div class="search__result-descr">
+              <h2 class="search__result-title"></h2>
+              <p class="search__result-year"></p>
+              <p class="search__result-type"></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="movie movie__close">
+      <div class="container">
+        <a href="#!" class="movie__back">Назад к поиску</a>
+        <div class="movie__wrapper">
+          <div class="movie__box">
+            <div class="movie__image"></div>
+            <div class="movie__descr">
+              <h2 class="movie__title"></h2>
+              <p class="movie__data">Год:<span class="movie__year"></span></p>
+              <p class="movie__data">Рейтинг:<span class="movie__rated"></span></p>
+              <p class="movie__data">Дата выхода:<span class="movie__released"></span></p>
+              <p class="movie__data">Продолжительность:<span class="movie__runtime"></span></p>
+              <p class="movie__data">Жанр:<span class="movie__genre"></span></p>
+              <p class="movie__data">Режиссер:<span class="movie__director"></span></p>
+              <p class="movie__data">Сценарий:<span class="movie__writer"></span></p>
+              <p class="movie__data">Актеры:<span class="movie__actors"></span></p>
+            </div>
+          </div>
+          <div class="movie__plot">
+            <p class="movie__text"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
+
+</html>
